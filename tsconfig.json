@@ -1,0 +1,9 @@
+{
+  "extends": "@tsconfig/strictest",
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "target": "ESNext",
+    "checkJs": false
+  }
+}
