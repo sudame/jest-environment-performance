@@ -4,7 +4,8 @@
   "scripts": {
     "generate-tests": "tsx scripts/generate-tests.ts",
     "test:node": "jest --clearCache && jest --config jest.config.node.mjs",
-    "test:jsdom": "jest --clearCache && jest --config jest.config.jsdom.mjs"
+    "test:jsdom": "jest --clearCache && jest --config jest.config.jsdom.mjs",
+    "test:vitest": "vitest run --config vitest.config.ts"
   },
   "keywords": [
     "jest",
@@ -28,6 +29,7 @@
     "ts-jest": "29.3.1",
     "tsx": "4.19.3",
     "typescript": "5.8.2",
-    "typescript-eslint": "8.29.0"
+    "typescript-eslint": "8.29.0",
+    "vitest": "^3.1.1"
   }
 }

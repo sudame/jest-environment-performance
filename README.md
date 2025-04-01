@@ -38,6 +38,9 @@ describe('#{TEST_ID}.test.ts', () => {
 ```sh
 npm run test:node
 npm run test:jsdom
+
+# おまけ
+npm run test:vitest
 ```
 
 ## 結果
